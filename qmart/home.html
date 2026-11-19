@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QMART – Online Store</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <nav>
+        <a class="brand" href="home.html"><span class="brand-q">Q</span><span class="brand-mart">MART</span></a>
+
+        <div class="link">
+            <a href="home.html">Home</a>
+            <a href="#about">About</a>
+
+            <form class="search-form" id="search-form" role="search">
+                <input class="search-input" id="search-input" type="search" placeholder="Search products..." aria-label="Search products">
+                <button class="nav-action" type="submit" aria-label="Search"></button>
+            </form>
+
+            <a class="cart" href="cart.html" aria-label="Cart">
+                <span class="cart-label">Cart 🛒</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="products-section">
+            <h1>Our Products</h1>
+            <p class="search-status" id="search-status" role="status"></p>
+            <div id="product-list">
+                <p>Loading products...</p>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <h2>About QMART</h2>
+            <p>QMART is a demo online store built with HTML, CSS and JavaScript. Product data is loaded from the free DummyJSON API.</p>
+        </section>
+    </main>
+
+    <script src="home.js"></script>
+</body>
+</html>
