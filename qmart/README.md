@@ -2,7 +2,7 @@
 
 A responsive online store front-end built with **HTML, CSS and vanilla JavaScript**. Products are loaded live from the [DummyJSON](https://dummyjson.com) API.
 
-🔗 **Live demo:** _add your link here (Netlify / GitHub Pages)_
+🔗 **Live demo:** [QMART](https://ramakrishna-024.github.io/QMART/qmart/home.html)
 
 ## ✨ Features
 - Product grid loaded from a REST API using `fetch`
